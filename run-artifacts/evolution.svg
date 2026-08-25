@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="622" viewBox="0 0 1000 622" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="1000" height="622" fill="#ffffff"/>
+<text x="40" y="44" font-size="24" font-weight="700" fill="#111827">Drift x Voyager 世界线演化（run12 实测）</text>
+<text x="40" y="70" font-size="13" fill="#6b7280">回旋镖循环：Voyager 行为 -&gt; Drift 调整世界叙事 -&gt; 重塑下一轮任务。每条边是一个子任务的执行结果，节点成功/失败实时驱动剧情走向。</text>
+<rect x="40" y="92" width="165" height="42" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="122.5" y="118" font-size="12.5" font-weight="600" fill="#1d4ed8" text-anchor="middle">自然语言关卡(医院)</text>
+<path d="M209 113 h10" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+<rect x="223" y="92" width="165" height="42" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="305.5" y="118" font-size="12.5" font-weight="600" fill="#1d4ed8" text-anchor="middle">Drift 导演子系统</text>
+<path d="M392 113 h10" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+<rect x="406" y="92" width="165" height="42" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="488.5" y="118" font-size="12.5" font-weight="600" fill="#1d4ed8" text-anchor="middle">DriftVoyager</text>
+<path d="M575 113 h10" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+<rect x="589" y="92" width="165" height="42" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="671.5" y="118" font-size="12.5" font-weight="600" fill="#1d4ed8" text-anchor="middle">Mineflayer / Bot</text>
+<path d="M758 113 h10" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+<rect x="772" y="92" width="165" height="42" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="854.5" y="118" font-size="12.5" font-weight="600" fill="#1d4ed8" text-anchor="middle">Minecraft 世界</text>
+<path d="M854.5 134 C 940 184, 100 184, 122.5 134" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#arrg)"/>
+<text x="500.0" y="178" font-size="12.5" font-weight="600" fill="#15803d" text-anchor="middle">行为反馈 -&gt; Drift 调整叙事 -&gt; 涌现下一轮任务</text>
+<defs><marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="#2563eb"/></marker><marker id="arrg" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="#16a34a"/></marker></defs>
+<circle cx="46" cy="174" r="7" fill="#9ca3af" stroke="#111827" stroke-width="1"/>
+<text x="62" y="178" font-size="13.5" fill="#111827">ROOT（初始世界）</text>
+<path d="M46 174 V 222 H 76" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
+<circle cx="76" cy="222" r="7" fill="#16a34a" stroke="#111827" stroke-width="1"/>
+<text x="92" y="226" font-size="13.5" fill="#111827">bot.chat('/give @s minecraft:white_wool 16')</text>
+<text x="92" y="242" font-size="11" fill="#15803d">成功</text>
+<path d="M76 222 V 270 H 106" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
+<circle cx="106" cy="270" r="7" fill="#16a34a" stroke="#111827" stroke-width="1"/>
+<text x="122" y="274" font-size="13.5" fill="#111827">bot.chat('/give @s minecraft:white_concrete 16')</text>
+<text x="122" y="290" font-size="11" fill="#15803d">成功</text>
+<path d="M106 270 V 318 H 136" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
+<circle cx="136" cy="318" r="7" fill="#16a34a" stroke="#111827" stroke-width="1"/>
+<text x="152" y="322" font-size="13.5" fill="#111827">bot.chat('/give @s minecraft:white_wool 16')</text>
+<text x="152" y="338" font-size="11" fill="#15803d">成功</text>
+<path d="M136 318 V 366 H 166" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
+<circle cx="166" cy="366" r="7" fill="#dc2626" stroke="#111827" stroke-width="1"/>
+<text x="182" y="370" font-size="13.5" fill="#111827">bot.chat('/setblock 120 65 80 minecraft:white_bed')</text>
+<text x="182" y="386" font-size="11" fill="#b91c1c">失败（优雅跳过，未崩）</text>
+<path d="M166 366 V 414 H 196" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
+<circle cx="196" cy="414" r="7" fill="#dc2626" stroke="#111827" stroke-width="1"/>
+<text x="212" y="418" font-size="13.5" fill="#111827">bot.chat('/give @s minecraft:white_wool 64')</text>
+<text x="212" y="434" font-size="11" fill="#b91c1c">失败（优雅跳过，未崩）</text>
+<path d="M196 414 V 462 H 226" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
+<circle cx="226" cy="462" r="7" fill="#16a34a" stroke="#111827" stroke-width="1"/>
+<text x="242" y="466" font-size="13.5" fill="#111827">bot.chat('/give @s minecraft:white_wool 64')</text>
+<text x="242" y="482" font-size="11" fill="#15803d">成功</text>
+<path d="M226 462 V 510 H 256" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
+<circle cx="256" cy="510" r="7" fill="#16a34a" stroke="#111827" stroke-width="1"/>
+<text x="272" y="514" font-size="13.5" fill="#111827">bot.chat('/setblock ~ ~1 ~ minecraft:white_wool')</text>
+<text x="272" y="530" font-size="11" fill="#15803d">成功</text>
+<path d="M256 510 V 558 H 286" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
+<circle cx="286" cy="558" r="7" fill="#16a34a" stroke="#111827" stroke-width="1"/>
+<text x="302" y="562" font-size="13.5" fill="#111827">bot.chat('/give @s minecraft:white_wool 16')</text>
+<text x="302" y="578" font-size="11" fill="#15803d">成功</text>
+</svg>

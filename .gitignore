@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Logs & runtime output
+logs/
+*.log
+!run-artifacts/*.log
+
+# Real secrets — only .env.example is tracked
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/

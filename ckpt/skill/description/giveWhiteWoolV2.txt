@@ -1,0 +1,3 @@
+async function giveWhiteWool(bot) {
+    // The function gives the bot 16 white wool blocks by executing a command, then reports that the items were received.
+}
