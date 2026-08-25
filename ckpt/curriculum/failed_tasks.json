@@ -1,1 +1,1 @@
-["bot.chat('/setblock 120 65 80 minecraft:white_bed')"]
+["bot.chat('/setblock 120 65 80 minecraft:white_bed')", "bot.chat('/setblock 120 45 231 minecraft:white_wool')", "bot.chat('/setblock ~ ~1 ~ minecraft:white_bed')"]

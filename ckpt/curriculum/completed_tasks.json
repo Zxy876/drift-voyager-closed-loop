@@ -1,1 +1,1 @@
-["bot.chat('/give @s minecraft:white_wool 16')", "bot.chat('/give @s minecraft:white_concrete 16')", "bot.chat('/give @s minecraft:white_wool 64')"]
+["bot.chat('/give @s minecraft:white_wool 16')", "bot.chat('/give @s minecraft:white_concrete 16')", "bot.chat('/give @s minecraft:white_wool 64')", "bot.chat('/setblock ~ ~1 ~ minecraft:white_wool')", "bot.chat('/setblock 120 64 340 minecraft:white_wool')", "bot.chat('/give @s minecraft:white_wool 8')", "bot.chat('/setblock 100 49 -200 minecraft:white_concrete')"]
